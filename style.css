@@ -1,0 +1,79 @@
+:root{
+    --blanco:#ffffff;
+    --gris:#757575;
+    --gisClaro:hwb(215 91% 2%) ;
+    --oscuro:#212121;
+    --secundario:#0097A7;
+} 
+
+body{
+    background: #ffffff;
+}
+
+main{
+    margin:10rem 5rem ;
+    background-color: var(--gisClaro);
+    width:40rem;
+    height: 30rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+form{
+    margin: 2rem;
+    padding: 2rem 5rem;
+}
+li{
+    list-style-type: none;
+}
+
+.emisor{
+padding: 1rem 3rem 1rem 3rem;
+color: var(--oscuro);
+font-family: 'Krub', sans-serif;
+display: block;
+}
+.receptor{
+    padding: 1rem 3rem 1rem 2rem;
+    color: var(--oscuro);
+    font-family: 'Krub', sans-serif;
+    display: block;
+}
+.mensaje{
+    padding: 1rem 3rem 1rem 2.5rem;
+    color: var(--oscuro);
+    font-family: 'Krub', sans-serif;
+    display: block;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+    border-radius: 3px;
+    border:none;
+}
+input{
+ border-radius: 2px;
+ border: none;
+ padding:.5rem;
+}
+button{
+  border-radius: 5px;
+  padding:1rem;
+  margin: 1rem 1rem 10rem 8rem;
+  color:var(--blanco);
+  background:var(--secundario) ;
+  width: 10rem;
+}
+article{
+    position: absolute;
+    margin:0rem 50rem ;
+    padding: 0rem 5rem;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    width: 600px;
+    height: 400px;
+    border-radius: 3px;
+}
+h6{
+    font-family: 'Krub', sans-serif;
+}
